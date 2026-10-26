@@ -1,0 +1,1 @@
+"""Meal recommendation use cases."""

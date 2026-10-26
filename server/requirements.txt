@@ -1,0 +1,4 @@
+# Photo validation/re-encoding is required for food scans.
+Pillow>=11.1,<13
+# Required for the on-demand Chinese PDF analytics export:
+reportlab>=4.2,<6

@@ -1,0 +1,78 @@
+# Android / Gradle / Kotlin: local caches and generated files
+.gradle/
+.kotlin/
+**/build/
+.cxx/
+.externalNativeBuild/
+local.properties
+captures/
+*.apk
+*.aab
+*.ap_
+*.hprof
+
+# IDE and operating-system state
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python environments, bytecode, and test caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Personal health data, backups, uploads, and generated exports
+/server/data/
+/server/media/
+/tmp/
+/output/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+
+# Local credentials and signing material; keep sanitized example configs
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+key.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*-private.pem
+
+# Flutter: also applies when the client is migrated in this repository
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+coverage/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Keep source, migrations, Gradle Wrapper, Flutter pubspec.lock, and docs tracked.
