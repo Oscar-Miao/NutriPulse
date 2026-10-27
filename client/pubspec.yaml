@@ -1,0 +1,17 @@
+name: nutripulse
+description: NutriPulse local-first diet and fitness client.
+publish_to: none
+version: 2.0.0+2
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
